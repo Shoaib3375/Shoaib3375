@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Shoaib3375
 - 👀 I’m interested in Software Development 👨‍💻, Reading Books 📚, Play Games 🎮
-- 🌱 I’m currently learning API Development
-- 💞️ I’m looking to collaborate on Open Source Backend Devlopment
+- 🌱 I’m currently learning DSA with ML.
+- 💞️ I’m looking to collaborate on Open Source Backend development.
 - 📫 How to reach me Mail: mdshoaiburislam@gmail.com <br/>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shoaib3375&layout=compact)](https://github.com/shoaib3375/github-readme-stats)
