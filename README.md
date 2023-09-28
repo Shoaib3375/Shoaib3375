@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Shoaib3375
 - 👀 I’m interested in Software Development 👨‍💻, Reading Books 📚, Play Games 🎮
-- 🌱 I’m currently learning DSA with ML.
+- 🌱 I’m currently learning DSA.
 - 💞️ I’m looking to collaborate on Open Source Backend development.
 - 📫 How to reach me Mail: mdshoaiburislam@gmail.com LinkedIn: https://www.linkedin.com/in/m3s7a/<br/>
 
