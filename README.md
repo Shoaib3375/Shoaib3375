@@ -2,7 +2,7 @@
 - 👀 I’m interested in Software Development 👨‍💻, Reading Books 📚, Play Games 🎮
 - 🌱 I’m currently learning DSA.
 
-- 💞️ nothing
+- 💞️ Hey my Jetty, I still love you & I will love you forever. Jetty is a Brilliant Web Server. And you are a Brilliant. I fell in love with you cause, You are Brilliant. I want to spend my whole life with you. If you ever feel like coming back to me, and even if you come back after 10 years, I will accept it without thinking about anything.
   <!---
   "Are you ready to start a new chapter in your life? I am searching for a wonderful girl who is ready to take the plunge and commit to a lifetime of love and happiness.
   If you are looking for a genuine connection that will stand the test of time, then look no further. I am here, waiting for you. Let's embark on this beautiful journey together!📫 "
