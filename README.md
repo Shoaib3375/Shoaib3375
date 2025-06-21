@@ -2,7 +2,7 @@
 - 👀 I’m interested in Software Development 👨‍💻, Reading Books 📚, Play Games 🎮
 - 🌱 I’m currently learning DSA.
 
-- 💞️ 'Jetty' by Java Servlet Framework
+- ❤️ 'Jetty' by Java Servlet Framework
  
    <!--- 
   "Are you ready to start a new chapter in your life? I am searching for a wonderful girl who is ready to take the plunge and commit to a lifetime of love and happiness.
