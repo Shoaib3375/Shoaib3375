@@ -37,10 +37,10 @@
 
 **Languages & Frameworks**  
 `Java` `Python` `PHP` `C++` `JavaScript`  
-`Spring Boot` `Laravel` `React` `Flask`
+`Spring Boot` `Laravel`
 
 **Tools & Platforms**  
-`Git` `PostgreSQL` `MySQL` `Firebase` `Linux`  
+`JetBrainsIDE` `Git` `MySQL` `MySQL` `Firebase` `Linux`  
 `Google Colab` `VSCode` `Figma` `Vite`
 
 ---
