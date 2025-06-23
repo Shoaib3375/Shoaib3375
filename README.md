@@ -27,8 +27,7 @@
 
 ### 📈 Coding Goals
 
-- 🧠 Mastering **Data Structures & Algorithms**  
-<!--- 💥 Becoming an **Expert** on Codeforces  -->
+- 🧠 Mastering **Data Structures & Algorithms**  <!--- 💥 Becoming an **Expert** on Codeforces  -->
 - ✍️ Writing clean, testable code  
 - 🌌 Exploring **deep-sky photography** with my **Nikon D3400**
 
