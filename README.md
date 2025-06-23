@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hey, I'm Md Shoaib</h1>
 
 <p align="center">
-  💻 Software Developer | 🌌 Dreamer | 📚 Lifelong Learner | 💖 Jetty Believer
+  💻 Software Developer | 🌌 Dreamer | 📚 Lifelong Learner |  Jetty Believer
 </p>
 
 ---
