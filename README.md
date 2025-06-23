@@ -55,7 +55,7 @@
 
 - 📧 Email: [mdshoaiburislam@gmail.com](mailto:mdshoaiburislam@gmail.com)  
 - 💼 LinkedIn: [linkedin.com/in/m3s7a](https://www.linkedin.com/in/m3s7a/)  
-- 📸 Instagram: [@mesta.diary](https://facebook.com/mesta.diary)  
+- 📸 Page: [@mesta.diary](https://facebook.com/mesta.diary)  
 
 ---
 
