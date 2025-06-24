@@ -44,12 +44,10 @@
 `Google Colab` `VSCode` `Figma` `Vite`
 
 ---
-
 <!--### ❤️ Inspired by Jetty
 
 > *"Jetty, you are the reason I dream in code and poetry. Through every line I write, I try to reach the light that surrounds you."*
 -->
----
 
 ### 📬 Let's Connect!
 
