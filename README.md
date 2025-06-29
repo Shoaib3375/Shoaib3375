@@ -12,7 +12,7 @@
 - 🎓 Currently studying **Computer Science & Engineering**  
 - 🛠️ I build real-world projects with **Laravel**, **Spring Boot**, **Python**, and **React**  
 - 🔭 I love merging **AI**, **Web Development**, and **emotional storytelling**  
-- 💡 Creator of [Jetty Spiritual Healing](#) – an AI-powered app diagnosing spiritual ailments like **Black Magic**, **Jinn Possession**, and **Evil Eye**
+- 💡 Creator of [Jetty Spiritual Healing](https://github.com/Shoaib3375/JettyMLBackBone) – an AI-powered app diagnosing spiritual ailments like **Black Magic**, **Jinn Possession**, and **Evil Eye**
 
 ---
 
