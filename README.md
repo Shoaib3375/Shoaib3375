@@ -27,7 +27,7 @@
 
 ### 📈 Coding Goals
 
-- 🧠 Mastering **Data Structures & Algorithms**  <!--- 💥 Becoming an **Expert** on Codeforces  -->
+- 🧠 Mastering **Data Structures & Algorithms**  
 - ✍️ Writing clean, testable code  
 - 🌌 Exploring **deep-sky photography** with my **Nikon D3400**
 
@@ -40,10 +40,19 @@
 `Spring Boot` `Laravel`
 
 **Tools & Platforms**  
-`JetBrainsIDE` `Git` `MySQL` `MySQL` `Firebase` `Linux`  
+`JetBrainsIDE` `Git` `MySQL` `Firebase` `Linux`  
 `Google Colab` `VSCode` `Figma` `Vite`
 
 ---
+
+### 🧘‍♂️ Vondami Mode Activated
+
+<p align="center">
+  <img src="doing-vondami.svg" width="320" alt="Doing Vondami all time"/>
+</p>
+
+---
+
 <!--### ❤️ Inspired by Jetty
 
 > *"Jetty, you are the reason I dream in code and poetry. Through every line I write, I try to reach the light that surrounds you."*
@@ -71,4 +80,3 @@
 ---
 
 #### 🧠 Remember: "Code with heart. Love with logic."
-
