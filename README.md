@@ -91,6 +91,7 @@ I'm passionate about creating technology that touches hearts and heals souls. My
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Jetty](https://img.shields.io/badge/Jetty-FE7A16?style=for-the-badge&logo=eclipsejetty&logoColor=white)
 
 </div>
 
