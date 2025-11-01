@@ -39,12 +39,12 @@ I'm passionate about creating technology that touches hearts and heals souls. My
 
 <table>
   <tr>
-    <td width="50%">
-      <h3>🔮 Jetty Spiritual Healing</h3>
+<td width="50%">
+      <h3><a href="https://github.com/Shoaib3375/JettyMLBackBone.git">🔮 Jetty Spiritual Healing</a></h3>
       <p>AI-powered diagnosis system for spiritual afflictions using machine learning to detect Black Magic, Jinn Possession, Evil Eye, or Mental Disorders.</p>
       <img src="https://img.shields.io/badge/Python-ML-blue" />
       <img src="https://img.shields.io/badge/Status-Active-success" />
-    </td>
+</td>
     <td width="50%">
       <h3>🧺 eLaundry System</h3>
       <p>Smart laundry automation platform built with modern microservices architecture using Laravel and Spring Boot.</p>
