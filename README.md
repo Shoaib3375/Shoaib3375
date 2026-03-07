@@ -17,12 +17,12 @@
 ## 🎯 About Me
 
 ```yaml
-name: "Md Shoaib"
-location: "Dhaka, Bangladesh"
-education: "Computer Science & Engineering"
+name: "Md Shoaib."
+location: "Dhaka, Bangladesh."
+education: "Computer Science & Engineering."
 passion: ["AI/ML", "Web Development", "Spiritual Technology", "Deep-Sky Photography"]
-currently_working_on: "Jetty Spiritual Healing - AI-powered spiritual diagnosis"
-fun_fact: "I blend technology with spirituality and emotional storytelling"
+currently_working_on: "Jetty Spiritual Healing - AI-powered spiritual diagnosis."
+fun_fact: "I blend technology with spirituality and emotional storytelling."
 ```
 
 <details>
