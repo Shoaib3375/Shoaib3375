@@ -135,7 +135,8 @@ graph TD
 </div>
 
 ---
-
+## GitHub Stats
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shoaib3375&theme=react-dark)
 ## 🎨 Creative Side
 
 <div align="center">
