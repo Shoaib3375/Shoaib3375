@@ -137,6 +137,8 @@ graph TD
 ---
 ## GitHub Stats
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shoaib3375&theme=react-dark)
+![Profile Details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shoaib3375&theme=dracula)
+
 ## 🎨 Creative Side
 
 <div align="center">
