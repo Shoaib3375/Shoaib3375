@@ -133,10 +133,10 @@ An ML classification engine that detects spiritual afflictions — **Black Magic
 
 ---
 
-## 📈 2025 Goals & Roadmap
+## 📈 2026 Goals & Roadmap
 
 ```
-🧠  Master advanced Data Structures & Algorithms
+🧠  Master DevOps
 ✅  Ship Jetty Spiritual Healing to production
 🌌  Launch deep-sky astrophotography portfolio (Nikon D3400)
 ⚡  Build production-ready AI applications at scale
