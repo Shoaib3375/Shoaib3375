@@ -123,7 +123,7 @@ languages  : ["English", "Bengali"]
 ## 🎯 2026 Goals
 
 ```
-✅  Ship Jetty Spiritual Healing to production
+✅  Ship Spiritual Healing to production
 🧠  Master DevOps & CI/CD pipelines
 ⚡  Build and deploy AI applications at scale
 🔬  Grow open-source contributions (pygit & beyond)
