@@ -39,7 +39,7 @@ core_skills:
   devops   : ["Git", "Linux", "Microservices", "REST APIs"]
 
 currently_building:
-  - "🔮 Jetty Spiritual Healing — NLP-powered symptom classification API (Flask + scikit-learn)"
+  - "🔮 Spiritual Healing — NLP-powered symptom classification API (Flask + scikit-learn)"
   - "🧺 eLaundry — Microservices laundry platform (Laravel + Spring Boot)"
 
 languages  : ["English", "Bengali"]
@@ -53,9 +53,9 @@ languages  : ["English", "Bengali"]
 
 | Project | Description | Stack | Status |
 |:--------|:------------|:------|:------:|
-| 🔮 **[JETTYMLBackBone](https://github.com/Shoaib3375/JettyMLBackBone)** | NLP classification API that detects spiritual & psychological conditions from text input. Custom-trained ML model served via Flask REST API. | `Python` `Flask` `scikit-learn` `NLP` | 🟢 Live |
+| 🔮 **[MLBackBone](https://github.com/Shoaib3375/JettyMLBackBone)** | NLP classification API that detects spiritual & psychological conditions from text input. Custom-trained ML model served via Flask REST API. | `Python` `Flask` `scikit-learn` `NLP` | 🟢 Live |
 | 🧺 **[eLaundry API](https://github.com/Shoaib3375/luandryapi)** | RESTful backend for an online laundry service — auth system, order tracking, admin controls, microservices architecture | `Laravel` `Spring Boot` `MySQL` | 🟢 Live |
-| 📅 **[Jetty Appointments](https://github.com/Shoaib3375/rukaiyah)** | Full-featured appointment booking platform — client scheduling, management, and tracking | `Vue.js` `Laravel` | 🟢 Live |
+| 📅 **[Appointments](https://github.com/Shoaib3375/rukaiyah)** | Full-featured appointment booking platform — client scheduling, management, and tracking | `Vue.js` `Laravel` | 🟢 Live |
 | 🐍 **pygit** | Lightweight Python-based version control system, built from scratch | `Python` `CLI` | 🔵 Open Source |
 
 </div>
