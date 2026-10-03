@@ -105,28 +105,36 @@ A production-grade crypto-to-crypto exchange platform with live liquidity provid
 **Architecture**
 
 ```text
-                 Next.js 14 (Frontend)
+              Next.js 14 (Frontend)
                         │
-                 Laravel 13 API (/v1)
+              Laravel 13 API (/v1)
                         │
-         ┌──────────────┼──────────────┐
-         │              │              │
-    Quote Engine   Order Service  Reconciliation
-         │              │
-  ┌──────┴──────┐   SSE Stream
-  │  Best-Rate  │   (real-time)
-  │   Router    │
-  └──────┬──────┘
-         │ PHP Fibers (parallel)
-  ┌──────┴────────────────────┐
-  │  ChangeNOW  │  Changelly  │
-  │  SimpleSwap │  FixedFloat │
-  └───────────────────────────┘
+         ┌──────────────┼──────────────────┐
+         │              │                  │
+    Quote Engine  Order Service     Reconciliation
+         │              │                  │
+  ┌──────┴──────┐  SSE Stream          Recovery
+  │  Best-Rate  │  (real-time)          Actions
+  │   Router    │       │                  │
+  └──────┬──────┘  Blockchain          Operator
+         │         Monitoring           Alerts
+         │ PHP Fibers (parallel)           │
+  ┌──────┴────────────────────┐            ▼
+  │  ChangeNOW  │  Changelly  │          Slack
+  │  SimpleSwap │  FixedFloat │         Sentry
+  └──────┬────────────────────┘
          │
-   PostgreSQL 16
-   (1 primary + 2 read replicas)
-        +
+  ┌──────┴─────────────────────────┐
+  │         PostgreSQL 16          │
+  │  primary ──► replica-1         │
+  │           └──► replica-2       │
+  └────────────────────────────────┘
+         +
       Redis 7
+      (cache + queues + Horizon)
+         +
+      Laravel Horizon
+      (critical / high / default / low)
 ```
 
 **Core Features**
