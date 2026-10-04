@@ -1,8 +1,10 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00d9ff,50:7b5ea7,100:050810&height=200&section=header&text=Md%20Shoaib%20Islam&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Backend%20Developer%20%7C%20Full-Stack%20Engineer%20%7C%20Open%20to%20Work&descAlignY=58&descSize=17&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00d9ff,50:7b5ea7,100:050810&height=200&section=header&text=Md%20Shoaib%20Islam&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Backend%20Developer%20%7C%20Full-Stack%20Engineer&descAlignY=58&descSize=18&animation=fadeIn"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=PHP+%7C+Laravel+%7C+Java+%7C+Spring+Boot+%7C+Node.js;React+%7C+Next.js+%7C+REST+APIs+%7C+Microservices+%7C+Docker;PostgreSQL+%7C+Redis+%7C+RabbitMQ+%7C+Sentry+%7C+Horizon;Building+scalable+backend+systems+and+real-world+applications;Open+to+Full-Time+%26+Freelance+Opportunities" alt="Typing SVG"/>
+**Laravel · Spring Boot · PostgreSQL · Redis · Docker**
+<br/>
+*Building scalable APIs, payment systems, and exchange platforms. Based in Dhaka, Bangladesh 🇧🇩*
 
 <br/>
 
@@ -14,15 +16,9 @@
 <img src="https://img.shields.io/badge/LinkedIn-m3s7a-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
-<a href="https://github.com/shoaib3375">
-<img src="https://img.shields.io/badge/GitHub-shoaib3375-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://twitter.com/MDShoaibmesta">
+<img src="https://img.shields.io/badge/X-MDShoaibmesta-000000?style=for-the-badge&logo=x&logoColor=white"/>
 </a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=shoaib3375&color=00d9ff&style=flat-square&label=Profile+Views"/>
-&nbsp;
-<img src="https://img.shields.io/github/followers/shoaib3375?label=Followers&style=flat-square&color=7b5ea7"/>
 
 </div>
 
@@ -30,69 +26,25 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Backend Developer and Full-Stack Engineer** focused on building reliable, maintainable, and scalable web applications.
+I'm a **Backend Developer and Full-Stack Engineer** who builds reliable, maintainable, and scalable web applications.
 
-My primary backend stack is **PHP/Laravel**, with additional experience in **Java/Spring Boot and Node.js**. I also work with **React, Next.js, relational databases, Redis, RabbitMQ, Docker, Linux, and REST APIs**.
-
-```yaml
-name: "Md Shoaib Islam"
-location: "Dhaka, Bangladesh 🇧🇩"
-education: "B.Sc. in Computer Science & Engineering"
-role:
-  - Backend Developer
-  - Full-Stack Developer
-backend:
-  - PHP
-  - Laravel
-  - Java
-  - Spring Boot
-  - Node.js
-  - Express.js
-frontend:
-  - React
-  - Next.js
-  - TypeScript
-  - Tailwind CSS
-  - Vue.js
-databases:
-  - MySQL
-  - PostgreSQL
-  - Redis
-architecture:
-  - REST APIs
-  - Microservices
-  - Event-driven systems
-  - Authentication & Authorization
-  - Queue-based processing
-devops:
-  - Linux
-  - Docker
-  - Nginx
-  - Git
-  - GitHub Actions
-  - VPS Deployment
-messaging:
-  - RabbitMQ
-  - Redis Queues
-status: "Open to Full-Time & Freelance Opportunities"
-```
+My main stack is **PHP/Laravel**, with experience in **Java/Spring Boot** and **Node.js**. On the frontend I work with **React, Next.js, and Vue.js**. I'm currently a **Software Engineer at Triple Commas Inc** and studying **B.Sc. in Computer Science & Engineering**.
 
 ---
 
-## 🚀 What I Build
+## ⚡ At a Glance
 
-* Scalable RESTful APIs
-* Laravel backend applications
-* Business management systems
-* Payment and wallet systems
-* Crypto & currency exchange platforms
-* Microservice-based applications
-* Authentication & authorization systems
-* Admin dashboards
-* Queue-based background processing
-* Real-time applications
-* Database-driven applications
-* Production deployments with Docker
+| | |
+|:--|:--|
+| **Role** | Software Engineer @ Triple Commas Inc (Feb 2024 – Present) |
+| **Focus** | Backend engineering · REST APIs · Payment, wallet & exchange systems |
+| **Primary stack** | PHP / Laravel · Spring Boot · PostgreSQL · Redis · Docker |
+| **Education** | B.Sc. in Computer Science & Engineering (ongoing), Institute of Science and Technology, Dhaka |
+| **Location** | Dhaka, Bangladesh 🇧🇩 |
+| **Open to** | Full-time roles · Freelance projects |
+| **Contact** | [mdshoaiburislam@gmail.com](mailto:mdshoaiburislam@gmail.com) · [LinkedIn](https://www.linkedin.com/in/m3s7a/) |
+
+<!-- TODO (optional): add "Work preference: Remote / Hybrid / On-site" and availability / notice period -->
 
 ---
 
@@ -100,160 +52,72 @@ status: "Open to Full-Time & Freelance Opportunities"
 
 ### 💱 AGIO — Crypto Exchange Platform
 
-A production-grade crypto-to-crypto exchange platform with live liquidity provider routing, real-time order tracking, financial reconciliation, and a full admin operations suite.
+A production-grade crypto-to-crypto exchange platform with live liquidity-provider routing, real-time order tracking, financial reconciliation, and a full admin operations suite.
 
-**Architecture**
+<!-- TODO: add link to your public showcase repo or demo here, e.g. [📂 View project →](https://github.com/Shoaib3375/...) -->
 
 ```text
-              Next.js 14 (Frontend)
-                        │
-              Laravel 13 API (/v1)
-                        │
-         ┌──────────────┼──────────────────┐
-         │              │                  │
-    Quote Engine  Order Service     Reconciliation
-         │              │                  │
-  ┌──────┴──────┐  SSE Stream          Recovery
-  │  Best-Rate  │  (real-time)          Actions
-  │   Router    │       │                  │
-  └──────┬──────┘  Blockchain          Operator
-         │         Monitoring           Alerts
-         │ PHP Fibers (parallel)           │
-  ┌──────┴────────────────────┐            ▼
-  │  ChangeNOW  │  Changelly  │          Slack
-  │  SimpleSwap │  FixedFloat │         Sentry
-  └──────┬────────────────────┘
-         │
-  ┌──────┴─────────────────────────┐
-  │         PostgreSQL 16          │
-  │  primary ──► replica-1         │
-  │           └──► replica-2       │
-  └────────────────────────────────┘
-         +
-      Redis 7
-      (cache + queues + Horizon)
-         +
-      Laravel Horizon
-      (critical / high / default / low)
+ Next.js 14  ──►  Laravel 13 API  ──►  Best-Rate Router (PHP Fibers, parallel)
+                       │                    ├─ ChangeNOW   ├─ Changelly
+                       │                    └─ SimpleSwap  └─ FixedFloat
+                       │
+          ┌────────────┼─────────────┐
+     Order Service   SSE Stream   Reconciliation ──► Slack / Sentry alerts
+          │
+   PostgreSQL 16 (1 primary + 2 read replicas)  ·  Redis 7  ·  Laravel Horizon
 ```
 
-**Core Features**
+- **Best-rate routing:** queries 4 providers in parallel with PHP Fibers and picks the highest customer output
+- **Circuit breakers:** per-provider auto-trip on failure, auto-reset, Slack alert
+- **Order lifecycle:** 17 states from `awaiting_deposit` to `completed`, with full event history and on-chain deposit/payout verification
+- **Double-entry ledger** with reconciliation across 9 scopes (wallet balance, ledger invariant, payout mismatch, etc.)
+- **Real-time tracking** via Server-Sent Events, with a 5-step quote wizard on the frontend
+- **Subscription payments** via bKash / Nagad / bank, and a manual fiat exchange flow with payment-proof upload
+- **Admin operations:** system health, provider circuit state, stuck orders, refund / retry payout / cancel / resume, and an immutable audit trail
+- **Observability:** Sentry, structured JSON logs, Prometheus + Grafana + Loki, Slack alerts with 5-min dedup, deep health endpoint
+- **Infrastructure:** Docker Compose, PostgreSQL streaming replication with read/write splitting, GitHub Actions CI/CD with zero-downtime deploys
 
-* Best-rate router — queries all 4 providers concurrently via PHP Fibers, selects highest customer output
-* Circuit breaker per provider — auto-trips on failures, degraded state, auto-resets with Slack alert
-* Full order lifecycle — 17 states from `awaiting_deposit` → `completed` with full event history
-* On-chain verification — blockchain deposit detection, confirmation progress, payout verification
-* Financial reconciliation — 9 scopes (wallet balance, ledger invariant, payout mismatch, etc.)
-* Real-time SSE — order status streamed to browser every 2s; toast notification on terminal state
-* Classic exchange — manual fiat-based flow with payment proof upload
-* Subscription payments — bKash / Nagad / bank for Netflix, Spotify, etc.
-* PWA — installable, offline fallback, service worker caching
-* Admin operations — live system health, provider circuit states, stuck orders, reconciliation dashboard
-
-**Observability**
-
-* Sentry (Laravel + Next.js) — error tracking, performance traces, financial data scrubbed
-* Slack critical alerts — circuit trips, reconciliation breaks, stuck orders (5-min dedup)
-* Laravel Horizon — queue dashboard, 4 priority queues (critical / high / default / low)
-* Structured JSON logging — machine-readable for Loki / CloudWatch / Papertrail
-* Deep health endpoint — DB latency, Redis, queue backlog, all provider circuit states
-
-**Infrastructure**
-
-* Docker Compose — 7 containers (app, primary DB, 2 read replicas, Redis, frontend, mailpit)
-* PostgreSQL 16 streaming replication — reads load-balanced, sticky writes to primary
-* GitHub Actions → Docker Compose deploy on push to `main`
-
-**Technologies**
-
-`Laravel 13` `PHP 8.4` `Next.js 14` `TypeScript` `PostgreSQL 16` `Redis` `Docker` `Laravel Horizon` `Sentry` `SSE` `Tailwind CSS`
+`Laravel 13` `PHP 8.4` `Next.js 14` `TypeScript` `PostgreSQL 16` `Redis` `Docker` `Horizon` `Sentry` `SSE` `Tailwind CSS`
 
 ---
 
-### 🏗️ Microservices Backend Architecture
+### 🧺 eLaundry — Laundry Management System
 
-A modular backend architecture designed around independent services for authentication, users, wallets, payments, and currency exchange.
+A full-stack laundry management platform covering users, orders, pricing, coupons, services, and admin operations, with secure JWT-based REST APIs, role-based access, and order tracking from creation to completion.
 
-```text
-                    API / Client
-                         │
-                         ▼
-                  ┌─────────────┐
-                  │    Nginx    │
-                  └──────┬──────┘
-                         │
-          ┌──────────────┼──────────────┐
-          │              │              │
-          ▼              ▼              ▼
-     Auth Service   User Service   Wallet Service
-          │              │              │
-          └──────────────┼──────────────┘
-                         │
-              ┌──────────┴──────────┐
-              │                     │
-              ▼                     ▼
-         Payment Service      Exchange Service
-              │                     │
-              └──────────┬──────────┘
-                         │
-                 ┌───────┴────────┐
-                 │                │
-              RabbitMQ          Redis
-                 │                │
-                 └───────┬────────┘
-                         │
-                    PostgreSQL
-```
+📂 [Laravel API](https://github.com/Shoaib3375/luandryapi) · [Frontend](https://github.com/Shoaib3375/LaundryFrontEnd)
 
-**Technologies**
-
-`Laravel` `PHP` `PostgreSQL` `Redis` `RabbitMQ` `Docker` `Nginx`
+`Laravel` `Spring Boot` `React` `MySQL` `REST API` `JWT` `Swagger`
 
 ---
 
 ### 🔮 Rukaiyah — Spiritual Healing Platform
 
-A web platform designed to connect clients with qualified spiritual healers through appointment scheduling and digital services.
+A web platform that connects clients with qualified spiritual healers through appointment scheduling and digital services: role-based access, practitioner management, wallet and exchange-rate management, an admin dashboard, real-time communication, and background jobs.
 
-**Features**
+<!-- TODO: add repo / demo / screenshot link -->
 
-* Authentication & role-based access control
-* Practitioner management & appointment scheduling
-* Wallet functionality & exchange-rate management
-* Admin dashboard & real-time communication
-* Background jobs and queues
-
-**Technologies**
-
-`Laravel` `PHP` `Vue.js` `Tailwind CSS` `MySQL` `Redis` `WebSockets` `Docker`
+`Laravel` `Vue.js` `Tailwind CSS` `MySQL` `Redis` `WebSockets` `Docker`
 
 ---
 
-### 🧺 eLaundry
+### 🏗️ Microservices Backend Architecture
 
-An online laundry management platform handling users, orders, services, and administrative operations.
+A modular backend split into independent services for authentication, users, wallets, payments, and currency exchange, communicating through RabbitMQ and Redis behind an Nginx gateway.
 
-**Technologies**
+<!-- TODO: add repo / diagram link -->
 
-`Laravel` `PHP` `Spring Boot` `MySQL` `REST API` `Microservices`
-
-**Repository**
-
-<a href="https://github.com/Shoaib3375/luandryapi">GitHub → eLaundry API</a>
+`Laravel` `PostgreSQL` `Redis` `RabbitMQ` `Docker` `Nginx`
 
 ---
 
 ### 🧠 Jetty Healing Model
 
-A personal project integrating **NLP and machine learning** for text classification on the Jetty Healing platform.
+An NLP and machine-learning project for text classification on the Jetty Healing platform.
 
-**Technologies**
+📂 [JettyMLBackBone](https://github.com/Shoaib3375/JettyMLBackBone)
 
 `Python` `scikit-learn` `NLP` `Flask` `NumPy` `Pandas`
-
-**Repository**
-
-<a href="https://github.com/Shoaib3375/JettyMLBackBone">GitHub → JettyMLBackBone</a>
 
 ---
 
@@ -261,97 +125,34 @@ A personal project integrating **NLP and machine learning** for text classificat
 
 <div align="center">
 
-### Languages
-<img src="https://skillicons.dev/icons?i=php,java,python,javascript,typescript,cpp,c"/>
+**Core stack (what I use in production)**
 
-### Backend
-<img src="https://skillicons.dev/icons?i=laravel,spring,nodejs,express,flask"/>
-
-### Frontend
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,html,css,tailwind,vite"/>
-
-### Databases & Infrastructure
-<img src="https://skillicons.dev/icons?i=mysql,postgres,redis,docker,nginx,linux"/>
-
-### Development Tools
-<img src="https://skillicons.dev/icons?i=git,github,postman,idea,vscode"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/REST%20APIs-00d9ff?style=for-the-badge&logo=openapiinitiative&logoColor=white"/>
 
 </div>
 
----
+<br/>
 
-## 🔧 Backend Skills
+| Area | Technologies |
+|:--|:--|
+| **Languages** | <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> |
+| **Backend** | <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/> |
+| **Frontend** | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> |
+| **Databases & Messaging** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white"/> |
+| **DevOps & Infra** | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/> |
+| **Observability** | <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white"/> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/> <img src="https://img.shields.io/badge/Laravel%20Horizon-FF2D20?style=flat-square&logo=laravel&logoColor=white"/> |
+| **Tools & Docs** | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black"/> <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white"/> <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> |
 
-```text
-✓ PHP & Laravel                    ✓ Redis Caching
-✓ Java & Spring Boot               ✓ Queue & Background Jobs
-✓ Node.js & Express.js             ✓ RabbitMQ
-✓ REST API Development             ✓ Microservices
-✓ API Authentication               ✓ WebSockets & SSE
-✓ JWT / Token Authentication       ✓ Payment & Wallet Logic
-✓ Laravel Sanctum                  ✓ Transaction Processing
-✓ Role & Permission Systems        ✓ Admin Systems
-✓ Database Design                  ✓ Laravel Horizon
-✓ MySQL & PostgreSQL               ✓ Sentry & Observability
-✓ Eloquent ORM                     ✓ CI/CD & Docker
-```
+**Engineering practices:** MVC & DTO architecture · REST API design · JWT authentication & role-based access control · Queue-based background jobs · Read/write DB splitting · Double-entry ledgers & reconciliation · CI/CD with zero-downtime deploys · API documentation (Swagger)
 
 ---
 
-## 🐳 DevOps & Infrastructure
+## 🎯 Currently Focused On
 
-```text
-Linux
- │
- ├── Nginx
- ├── PHP / Laravel
- ├── Node.js / Next.js
- ├── Redis
- ├── MySQL / PostgreSQL (with streaming replication)
- │
- └── Docker
-      ├── Application Containers
-      ├── Database (primary + replicas)
-      ├── Redis
-      ├── Laravel Horizon
-      └── GitHub Actions CI/CD
-```
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=shoaib3375&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=050810&title_color=00d9ff&icon_color=7b5ea7&text_color=e8edf5"/>
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shoaib3375&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=050810&title_color=00d9ff&text_color=e8edf5"/>
-
-</div>
-
-<div align="center">
-<img src="https://streak-stats.demolab.com/?user=shoaib3375&theme=tokyonight&hide_border=true&background=050810&ring=00d9ff&fire=7b5ea7&currStreakLabel=00d9ff"/>
-</div>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shoaib3375&theme=react-dark&bg_color=050810&color=00d9ff&line=7b5ea7&point=ffffff&hide_border=true"/>
-</div>
-
----
-
-## 🎯 Current Focus
-
-```text
-🚀 Building production-ready backend systems
-🏗️ Designing scalable microservice architectures
-⚡ Working with Redis & RabbitMQ
-🐳 Docker & containerization in production
-☁️ Cloud infrastructure & CI/CD pipelines
-🔐 Secure payment & crypto exchange systems
-📊 Observability: Sentry, Slack alerts, structured logging
-📚 System design & software architecture
-🌍 Growing open-source contributions
-```
+- Production-ready backend systems and secure payment / exchange flows
+- Scalable microservice architecture, Redis and RabbitMQ
+- Docker, CI/CD, and observability (Sentry, Prometheus, Grafana)
+- System design and software architecture
 
 ---
 
@@ -367,28 +168,14 @@ Linux
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
-<a href="https://github.com/shoaib3375">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-&nbsp;
 <a href="https://twitter.com/MDShoaibmesta">
 <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
 </a>
 
 <br/><br/>
 
-<strong>Open to Full-Time Roles, Freelance Projects & Engineering Collaborations</strong>
-<br/>
-<em>Backend Development · Full-Stack Development · Microservices · Software Engineering</em>
+**Open to full-time roles, freelance projects & engineering collaborations**
 
-</div>
-
----
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050810,50:7b5ea7,100:00d9ff&height=120&section=footer&animation=fadeIn"/>
-
-<strong><code>Build · Learn · Ship · Improve</code></strong> 🚀
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050810,50:7b5ea7,100:00d9ff&height=100&section=footer"/>
 
 </div>
