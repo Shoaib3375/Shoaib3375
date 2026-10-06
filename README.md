@@ -1,6 +1,9 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00d9ff,50:7b5ea7,100:050810&height=200&section=header&text=Md%20Shoaib%20Islam&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Backend%20Developer%20%7C%20Full-Stack%20Engineer&descAlignY=58&descSize=18&animation=fadeIn"/>
+<!-- Promo video (upload promo.gif to the assets/ folder of this repo) -->
+<img width="100%" src="assets/promo.gif" alt="Md Shoaib Islam — Backend Developer & Full-Stack Engineer promo"/>
+
+<br/><br/>
 
 **Laravel · Spring Boot · PostgreSQL · Redis · Docker**
 <br/>
