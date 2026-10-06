@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Promo video (upload promo.gif to the assets/ folder of this repo) -->
-<img width="100%" src="assets/promo.gif" alt="Md Shoaib Islam — Backend Developer & Full-Stack Engineer promo"/>
+<img width="100%" src="promo.gif" alt="Md Shoaib Islam — Backend Developer & Full-Stack Engineer promo"/>
 
 <br/><br/>
 
