@@ -31,7 +31,7 @@
 
 I'm a **Backend Developer and Full-Stack Engineer** who builds reliable, maintainable, and scalable web applications.
 
-My main stack is **PHP/Laravel**, with experience in **Java/Spring Boot** and **Node.js**. On the frontend I work with **React, Next.js, and Vue.js**. I'm currently a **Software Engineer at Triple Commas Inc** and studying **B.Sc. in Computer Science & Engineering**.
+My main stack is **PHP/Laravel**, with experience in **Java/Spring Boot**, **Python/FastAPI**, and **Node.js**. On the frontend I work with **React, Next.js, and Vue.js**. I'm currently a **Software Engineer at Triple Commas Inc** and studying **B.Sc. in Computer Science & Engineering**.
 
 ---
 
@@ -57,7 +57,7 @@ My main stack is **PHP/Laravel**, with experience in **Java/Spring Boot** and **
 
 A production-grade crypto-to-crypto exchange platform with live liquidity-provider routing, real-time order tracking, financial reconciliation, and a full admin operations suite.
 
-<!-- TODO: add link to your public showcase repo or demo here, e.g. [📂 View project →](https://github.com/Shoaib3375/...) -->
+📂 [PaymentExchange (Laravel platform) →](https://github.com/Shoaib3375/PaymentExchange)
 
 ```text
  Next.js 14  ──►  Laravel 13 API  ──►  Best-Rate Router (PHP Fibers, parallel)
@@ -81,6 +81,36 @@ A production-grade crypto-to-crypto exchange platform with live liquidity-provid
 - **Infrastructure:** Docker Compose, PostgreSQL streaming replication with read/write splitting, GitHub Actions CI/CD with zero-downtime deploys
 
 `Laravel 13` `PHP 8.4` `Next.js 14` `TypeScript` `PostgreSQL 16` `Redis` `Docker` `Horizon` `Sentry` `SSE` `Tailwind CSS`
+
+---
+
+### 🕵️ AGIO Intelligent Transaction Investigation — Python Microservice
+
+An independent, read-only Python service that investigates suspicious, failed, delayed, or mismatched transactions in the AGIO PaymentExchange platform. It uses deterministic rules for facts and an optional LLM only to explain findings. Laravel stays the single source of truth for all financial operations.
+
+```text
+Laravel  ──►  Transactional Outbox  ──►  RabbitMQ (agio.events)
+                                              │
+                                  Python Investigation Service
+                       ┌──────────────────────┼───────────────────────┐
+                 Event Consumer       Evidence Collector         Rule Engine
+              (durable inbox,        (read-only Laravel         (26 rules,
+               idempotent)            internal API)              5 analyzers)
+                                              │
+                          agio_investigation DB (separate)  ──►  Admin API (9 endpoints)
+```
+
+- **Event-driven intake:** consumes RabbitMQ events through a durable, idempotent inbox (DB insert before ACK, bounded retries, DLQ)
+- **Evidence collection:** read-only access to 20 Laravel internal endpoints (users, orders, blockchain, providers, ledger, reconciliation, risk) via a typed async client, with `Decimal` for all money
+- **Deterministic rule engine:** 26 rules across 5 analyzers detecting financial, blockchain, provider, ledger, and account inconsistencies
+- **Safe LLM layer:** optional, injection-safe, structured-output explanations; the LLM never asserts financial facts
+- **Hard boundaries:** never approves withdrawals, moves money, edits ledgers, or changes KYC/AML status
+- **Production hardening:** Prometheus metrics, readiness checks, correlation-ID request logging, data retention worker, non-root multi-stage Docker image
+- **Isolation:** its own PostgreSQL database; it never touches Laravel's DB
+
+📂 [agio-investigation →](https://github.com/Shoaib3375/agio-investigation) · [PaymentExchange →](https://github.com/Shoaib3375/PaymentExchange)
+
+`Python 3.12` `FastAPI` `SQLAlchemy 2` `Alembic` `RabbitMQ` `aio-pika` `HTTPX` `PostgreSQL` `Prometheus` `Docker` `Pytest`
 
 ---
 
@@ -139,20 +169,21 @@ An NLP and machine-learning project for text classification on the Jetty Healing
 | Area | Technologies |
 |:--|:--|
 | **Languages** | <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> |
-| **Backend** | <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/> |
+| **Backend** | <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/> |
 | **Frontend** | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> |
 | **Databases & Messaging** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white"/> |
 | **DevOps & Infra** | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/> |
 | **Observability** | <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white"/> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/> <img src="https://img.shields.io/badge/Laravel%20Horizon-FF2D20?style=flat-square&logo=laravel&logoColor=white"/> |
 | **Tools & Docs** | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black"/> <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white"/> <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> |
 
-**Engineering practices:** MVC & DTO architecture · REST API design · JWT authentication & role-based access control · Queue-based background jobs · Read/write DB splitting · Double-entry ledgers & reconciliation · CI/CD with zero-downtime deploys · API documentation (Swagger)
+**Engineering practices:** MVC & DTO architecture · REST API design · JWT authentication & role-based access control · Queue-based background jobs · Event-driven design (transactional outbox) · Read/write DB splitting · Double-entry ledgers & reconciliation · CI/CD with zero-downtime deploys · API documentation (Swagger)
 
 ---
 
 ## 🎯 Currently Focused On
 
 - Production-ready backend systems and secure payment / exchange flows
+- Event-driven architectures (transactional outbox, RabbitMQ) and explainable, rules-first AI for financial investigations
 - Scalable microservice architecture, Redis and RabbitMQ
 - Docker, CI/CD, and observability (Sentry, Prometheus, Grafana)
 - System design and software architecture
